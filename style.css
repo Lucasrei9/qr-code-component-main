@@ -1,0 +1,71 @@
+/* ============== ROOT ================= */
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ================= BADY ============= */
+
+body {
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'DM Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Outfit', sans-serif;
+  background-color: var(--light-gray);
+  
+}
+
+/* ================ SECTION ================= */
+
+section {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--white);
+  margin-inline: auto;
+  margin-block: 3rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  text-align: center;
+
+}
+
+img {
+  display: block;
+  width: 100%;
+  border-radius: .5rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  width: 15rem;
+
+}
+
+p {
+  width: 17rem;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+
+
+
+/* =============  FOOTER ============= */
+
+.attribution {
+  font-size: 1rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
